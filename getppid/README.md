@@ -1,6 +1,8 @@
 IN: -
-OUT: <ppid(parent process identifier)>
 
+OUT: ppid
+
+Example
 ```
 getppid
 1234
