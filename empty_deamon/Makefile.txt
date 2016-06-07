@@ -1,0 +1,6 @@
+all:	empty_deamon.c
+	gcc empty_deamon.c -fPIC -o empty_deamon
+
+clean:
+	-rm empty_deamon 2>/dev/null
+
